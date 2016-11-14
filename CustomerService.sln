@@ -10,9 +10,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		global.json = global.json
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CustomerServiceTests", "src\CustomerService\CustomerServiceTests.xproj", "{35B7DF9F-E766-4A68-971A-B21F1F096ACB}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CustomerServiceTests", "src\CustomerServiceTests\CustomerServiceTests.xproj", "{35B7DF9F-E766-4A68-971A-B21F1F096ACB}"
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CustomerServiceConsole", "src\CustomerServiceConsole\CustomerServiceConsole.xproj", "{6E2B445E-AF27-473A-A1ED-78CD00B3E519}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{1A7C73D8-EA9D-45BA-9D8A-B804420B0DE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,7 +35,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{35B7DF9F-E766-4A68-971A-B21F1F096ACB} = {FE104CBC-751B-4013-B231-12C66646E401}
+		{35B7DF9F-E766-4A68-971A-B21F1F096ACB} = {1A7C73D8-EA9D-45BA-9D8A-B804420B0DE6}
 		{6E2B445E-AF27-473A-A1ED-78CD00B3E519} = {FE104CBC-751B-4013-B231-12C66646E401}
 	EndGlobalSection
 EndGlobal
