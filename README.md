@@ -81,7 +81,7 @@ test has never been ran.
 * Select the test and choose "Run selected test". 
 * The test will run and the icon for the test should be green not red. If red, check the code for the test and see if there is anything wrong.
 Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Run a first test")
+![alt text](https://github.com/dtinsley333/CustomerServiceTests/blob/master/TestRunner.png "Run a first test")
 
 ####Assignment:
  1. Create a test to make sure movies that are not eligible for streaming are indeed not eligible.
