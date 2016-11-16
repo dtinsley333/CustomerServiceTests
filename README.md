@@ -94,7 +94,7 @@ test has never been ran.
                 UserId = 123,
                 FirstName = "Bob",
                 LastName = "Smith",
-                StartDate=1/1/2016,
+                StartDate=DateTime.Parse("1/1/2016"),
                 EndDate=null,
             };
 
@@ -102,10 +102,26 @@ test has never been ran.
         }
 ```
 * You will see errors and this is by design. You are writing code that verifies that you can create a user. Now you need to implement code that will make the test pass. This is the essence of Test Driven Development. 
-![alt text](https://github.com/dtinsley333/CustomerServiceTests/blob/master/TestRunner.png "Test fails prior to implementing code.")
+![alt text](https://github.com/dtinsley333/CustomerServiceTests/blob/master/NonCompilingUserTest.png "Test fails prior to implementing code.")
 
+* Our test project will test various classes in a console app. Tests can also test other types of projects. Right click on your solution and create a new console app. Name the app CustomerService
+* Add a new class file to the Customer Service Console app. Name the file "User.cs" and add the following code:
+```
+namespace CustomerService
+{
+    public class User
+    {
+        public int UserId { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public DateTime StartDate { get; set; }
+        public DateTime? EndDate { get; set; }
+        public bool IsActive { get; set; }
+    }
+}
+```
+* Rebuild your project. Then run the tests again. 
 
-* Right click on your solution and create a new console app. Name the app CustomerService
 ####Assignment:
  1. Create a test to make sure movies that are not eligible for streaming are indeed not eligible.
  2. Create tests for allowing sellers to create products that are Bangazon Prime.
