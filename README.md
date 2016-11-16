@@ -84,6 +84,25 @@ test has never been ran.
 
 ![alt text](https://github.com/dtinsley333/CustomerServiceTests/blob/master/TestRunner.png "Run a first test")
 
+* We have determined that our app will need a user. We are going to create a tests for our user though our system does not yet have code to handle users.  Create the following test in the class file called "User.Tests". 
+```
+  [Fact]
+        public void CanCreateUser()
+        {
+            User user = new User
+            {
+                UserId = 123,
+                FirstName = "Bob",
+                LastName = "Smith",
+                StartDate=1/1/2016,
+                EndDate=null,
+            };
+
+            Assert.NotNull(user);
+        }
+```
+* You will see errors and this is by design. You are writing code that verifies that you can create a user. Now you need to implement code that will make the test pass. This is the essence of Test Driven Development. 
+* Right click on your solution and create a new console app. Name the app CustomerService
 ####Assignment:
  1. Create a test to make sure movies that are not eligible for streaming are indeed not eligible.
  2. Create tests for allowing sellers to create products that are Bangazon Prime.
