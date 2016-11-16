@@ -80,7 +80,8 @@ http://bitbybitblog.com/introduction-to-test-driven-development/
 test has never been ran.
 * Select the test and choose "Run selected test". 
 * The test will run and the icon for the test should be green not red. If red, check the code for the test and see if there is anything wrong.
-Inline-style: 
+
+
 ![alt text](https://github.com/dtinsley333/CustomerServiceTests/blob/master/TestRunner.png "Run a first test")
 
 ####Assignment:
