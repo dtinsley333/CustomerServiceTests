@@ -120,7 +120,11 @@ namespace CustomerService
     }
 }
 ```
-* Rebuild your project. Then run the tests again. 
+* Right click on your test projects and "Add Reference". Select the Customer Service console app as your reference. 
+* Rebuild your project. Then run the tests again. Both tests should pass. 
+![alt text](https://github.com/dtinsley333/CustomerServiceTests/commit/ca6a0912a91f397ff026fb9cf70ea40db72ea9f5 "Run a first test")
+
+
 
 ####Assignment:
  1. Create a test to make sure movies that are not eligible for streaming are indeed not eligible.
