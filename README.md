@@ -63,8 +63,8 @@ http://bitbybitblog.com/introduction-to-test-driven-development/
 * Restore your packages
 * Build the app to make sure there are no errors.
 * Rename the file "Class1.cs" to "UserTests.cs"
-* Add a first test. ```
-
+* Add a first test. 
+```
          [Fact]
         public void TestOfTestSystem()
         {
@@ -72,7 +72,6 @@ http://bitbybitblog.com/introduction-to-test-driven-development/
             bool isTestFrameworkWorking = true;
             Assert.True(isTestFrameworkWorking);
         }
-
 ```
 * The purpose of this test is to see if your test framework is working and you can view test results.
 * Run the test. Go to the menu, choose test / windows /test explorer. 
