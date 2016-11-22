@@ -122,7 +122,7 @@ namespace CustomerService
 ```
 * Right click on your test projects and "Add Reference". Select the Customer Service console app as your reference. 
 * Rebuild your project. Then run the tests again. Both tests should pass. 
-![alt text](https://github.com/dtinsley333/CustomerServiceTests/commit/ca6a0912a91f397ff026fb9cf70ea40db72ea9f5 "Run a first test")
+![alt text](https://github.com/dtinsley333/CustomerServiceTests/blob/master/twoPassedTests.png "Run a first test")
 
 
 
